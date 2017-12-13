@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.itcast.mybatis.dao.UserDao">
+    <!-- addUser -->
+    <insert id="addUser" parameterType="cn.itcast.mybatis.model.User">
+        INSERT INTO user(username,userage)VALUES(#{username},#{userage})
+    </insert>
+    <!--deleteUserById-->
+    <delete id="deleteUserById" parameterType="cn.itcast.mybatis.model.User">
+        DELETE FROM user WHERE userid = #{userid}
+    </delete>
+    <!--modifyUser-->
+    <update id="modifyUser" parameterType="cn.itcast.mybatis.model.User">
+        UPDATE user SET username=#{username},userage=#{userage} WHERE userid=#{userid}
+    </update>
+    <!--getUserById-->
+    <select id="getUserById" parameterType="cn.itcast.mybatis.model.User" resultType="cn.itcast.mybatis.model.User">
+        SELECT userid,username,userage FROM user WHERE userid=#{userid}
+    </select>
+    <!--getAllUser-->
+    <select id="getAllUser" resultType="cn.itcast.mybatis.model.User">
+        SELECT userid,username,userage FROM user
+    </select>
+
+</mapper>

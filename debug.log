@@ -1,0 +1,125 @@
+2017-12-13 00:09:44  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-12-13 00:09:44  [ main:741 ] - [ DEBUG ]  Opening JDBC Connection
+2017-12-13 00:09:45  [ main:1456 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@18cd562]
+2017-12-13 00:09:45  [ main:1462 ] - [ DEBUG ]  ==>  Preparing: DELETE FROM user WHERE userid = ? 
+2017-12-13 00:09:45  [ main:1488 ] - [ DEBUG ]  ==> Parameters: 10(Integer)
+2017-12-13 00:09:45  [ main:1625 ] - [ DEBUG ]  <==    Updates: 1
+2017-12-13 00:09:45  [ main:1626 ] - [ DEBUG ]  Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@18cd562]
+2017-12-13 00:47:35  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-12-13 00:47:35  [ main:207 ] - [ DEBUG ]  Opening JDBC Connection
+2017-12-13 00:47:35  [ main:513 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1a0597b]
+2017-12-13 00:47:35  [ main:523 ] - [ DEBUG ]  ==>  Preparing: INSERT INTO user(username,userage)VALUES (?,?) 
+2017-12-13 00:47:35  [ main:552 ] - [ DEBUG ]  ==> Parameters: 诸葛亮(String), 22(Integer)
+2017-12-13 00:47:35  [ main:559 ] - [ DEBUG ]  <==    Updates: 1
+2017-12-13 00:47:35  [ main:561 ] - [ DEBUG ]  ==>  Preparing: SELECT LAST_INSERT_ID() 
+2017-12-13 00:47:35  [ main:561 ] - [ DEBUG ]  ==> Parameters: 
+2017-12-13 00:47:35  [ main:577 ] - [ DEBUG ]  <==      Total: 1
+2017-12-13 00:47:35  [ main:577 ] - [ DEBUG ]  Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1a0597b]
+2017-12-13 17:15:41  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-12-13 17:15:43  [ main:1872 ] - [ DEBUG ]  Opening JDBC Connection
+2017-12-13 17:15:44  [ main:2980 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@5a6c69]
+2017-12-13 17:15:44  [ main:2996 ] - [ DEBUG ]  ==>  Preparing: SELECT uuid(); 
+2017-12-13 17:15:45  [ main:4026 ] - [ DEBUG ]  ==> Parameters: 
+2017-12-13 17:15:46  [ main:4650 ] - [ DEBUG ]  <==      Total: 1
+2017-12-13 17:15:46  [ main:4650 ] - [ DEBUG ]  ==>  Preparing: INSERT INTO idcard(cardId, province, city, userid) VALUES (?,?,?,?) 
+2017-12-13 17:18:21  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-12-13 17:18:21  [ main:265 ] - [ DEBUG ]  Opening JDBC Connection
+2017-12-13 17:18:21  [ main:655 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@eec3d5]
+2017-12-13 17:18:21  [ main:655 ] - [ DEBUG ]  ==>  Preparing: SELECT uuid(); 
+2017-12-13 17:18:21  [ main:702 ] - [ DEBUG ]  ==> Parameters: 
+2017-12-13 17:18:21  [ main:717 ] - [ DEBUG ]  <==      Total: 1
+2017-12-13 17:18:21  [ main:717 ] - [ DEBUG ]  ==>  Preparing: INSERT INTO idcard(cardId, province, city, userid) VALUES (?,?,?,?) 
+2017-12-13 17:18:21  [ main:717 ] - [ DEBUG ]  ==> Parameters: 907c8770-dfe6-11e7-a33a-d07e352ef71f(String), 广东省(String), 深圳市(String), 1(Integer)
+2017-12-13 17:18:21  [ main:749 ] - [ DEBUG ]  <==    Updates: 1
+2017-12-13 17:18:21  [ main:749 ] - [ DEBUG ]  Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@eec3d5]
+2017-12-13 17:54:48  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-12-13 17:55:50  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-12-13 17:55:50  [ main:184 ] - [ DEBUG ]  Opening JDBC Connection
+2017-12-13 17:55:51  [ main:884 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1bc9c7d]
+2017-12-13 17:55:51  [ main:891 ] - [ DEBUG ]  ==>  Preparing: INSERT INTO user(username,userage)VALUES(?,?) 
+2017-12-13 17:55:51  [ main:984 ] - [ DEBUG ]  ==> Parameters: 乔峰(String), 29(Integer)
+2017-12-13 17:55:51  [ main:1076 ] - [ DEBUG ]  <==    Updates: 1
+2017-12-13 17:55:51  [ main:1098 ] - [ DEBUG ]  Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1bc9c7d]
+2017-12-13 17:55:51  [ main:1170 ] - [ DEBUG ]  Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1bc9c7d]
+2017-12-13 17:55:51  [ main:1170 ] - [ DEBUG ]  Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1bc9c7d]
+2017-12-13 18:43:00  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-12-13 18:43:01  [ main:225 ] - [ DEBUG ]  Opening JDBC Connection
+2017-12-13 18:43:01  [ main:476 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@118b62e]
+2017-12-13 18:43:01  [ main:485 ] - [ DEBUG ]  ==>  Preparing: INSERT INTO user(username,userage)VALUES(?,?) 
+2017-12-13 18:43:01  [ main:518 ] - [ DEBUG ]  ==> Parameters: 萧峰(String), 29(Integer)
+2017-12-13 18:43:01  [ main:569 ] - [ DEBUG ]  <==    Updates: 1
+2017-12-13 18:43:01  [ main:569 ] - [ DEBUG ]  Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@118b62e]
+2017-12-13 18:43:01  [ main:645 ] - [ DEBUG ]  Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@118b62e]
+2017-12-13 18:43:01  [ main:646 ] - [ DEBUG ]  Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@118b62e]
+2017-12-13 18:44:43  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-12-13 18:44:43  [ main:247 ] - [ DEBUG ]  Opening JDBC Connection
+2017-12-13 18:44:43  [ main:533 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1609a0f]
+2017-12-13 18:44:43  [ main:542 ] - [ DEBUG ]  ==>  Preparing: INSERT INTO user(username,userage)VALUES(?,?) 
+2017-12-13 18:44:43  [ main:580 ] - [ DEBUG ]  ==> Parameters: 段誉(String), 29(Integer)
+2017-12-13 18:44:43  [ main:582 ] - [ DEBUG ]  <==    Updates: 1
+2017-12-13 18:44:43  [ main:583 ] - [ DEBUG ]  Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1609a0f]
+2017-12-13 18:44:43  [ main:874 ] - [ DEBUG ]  Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1609a0f]
+2017-12-13 18:44:43  [ main:875 ] - [ DEBUG ]  Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1609a0f]
+2017-12-13 18:46:22  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-12-13 18:50:33  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-12-13 18:52:24  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-12-13 18:52:25  [ main:464 ] - [ DEBUG ]  Opening JDBC Connection
+2017-12-13 18:52:25  [ main:749 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@bd65e3]
+2017-12-13 18:52:25  [ main:756 ] - [ DEBUG ]  ==>  Preparing: INSERT INTO user(username,userage)VALUES(?,?) 
+2017-12-13 18:52:25  [ main:805 ] - [ DEBUG ]  ==> Parameters: 包拯(String), 29(Integer)
+2017-12-13 18:52:25  [ main:811 ] - [ DEBUG ]  <==    Updates: 1
+2017-12-13 18:52:25  [ main:812 ] - [ DEBUG ]  Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@bd65e3]
+2017-12-13 18:52:26  [ main:1777 ] - [ DEBUG ]  Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@bd65e3]
+2017-12-13 18:52:26  [ main:1778 ] - [ DEBUG ]  Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@bd65e3]
+2017-12-13 19:08:19  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-12-13 19:08:19  [ main:202 ] - [ DEBUG ]  Opening JDBC Connection
+2017-12-13 19:08:19  [ main:499 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@163f2fb]
+2017-12-13 19:08:19  [ main:507 ] - [ DEBUG ]  ==>  Preparing: INSERT INTO user(username,userage)VALUES(?,?) 
+2017-12-13 19:08:19  [ main:544 ] - [ DEBUG ]  ==> Parameters: 刘星(String), 29(Integer)
+2017-12-13 19:08:19  [ main:560 ] - [ DEBUG ]  <==    Updates: 1
+2017-12-13 19:08:19  [ main:560 ] - [ DEBUG ]  Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@163f2fb]
+2017-12-13 19:08:20  [ main:646 ] - [ DEBUG ]  Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@163f2fb]
+2017-12-13 19:08:20  [ main:646 ] - [ DEBUG ]  Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@163f2fb]
+2017-12-13 20:14:53  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-12-13 20:14:53  [ main:219 ] - [ DEBUG ]  Opening JDBC Connection
+2017-12-13 20:14:54  [ main:531 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@faf015]
+2017-12-13 20:14:54  [ main:546 ] - [ DEBUG ]  ==>  Preparing: DELETE FROM user WHERE userid = ? 
+2017-12-13 20:14:54  [ main:578 ] - [ DEBUG ]  ==> Parameters: 14(Integer)
+2017-12-13 20:17:27  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-12-13 20:17:27  [ main:280 ] - [ DEBUG ]  Opening JDBC Connection
+2017-12-13 20:17:27  [ main:561 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@a8171b]
+2017-12-13 20:17:27  [ main:577 ] - [ DEBUG ]  ==>  Preparing: DELETE FROM user WHERE userid = ? 
+2017-12-13 20:17:27  [ main:608 ] - [ DEBUG ]  ==> Parameters: 14(Integer)
+2017-12-13 20:17:27  [ main:624 ] - [ DEBUG ]  Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@a8171b]
+2017-12-13 20:17:27  [ main:717 ] - [ DEBUG ]  Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@a8171b]
+2017-12-13 20:22:59  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-12-13 20:22:59  [ main:234 ] - [ DEBUG ]  Opening JDBC Connection
+2017-12-13 20:22:59  [ main:500 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1a11c4f]
+2017-12-13 20:22:59  [ main:515 ] - [ DEBUG ]  ==>  Preparing: UPDATE user SET username=?,userage=? WHERE userid=? 
+2017-12-13 20:22:59  [ main:546 ] - [ DEBUG ]  ==> Parameters: 花木兰(String), 44(Integer), 11(Integer)
+2017-12-13 20:23:00  [ main:578 ] - [ DEBUG ]  <==    Updates: 1
+2017-12-13 20:23:00  [ main:578 ] - [ DEBUG ]  Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1a11c4f]
+2017-12-13 20:23:00  [ main:640 ] - [ DEBUG ]  Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1a11c4f]
+2017-12-13 20:23:00  [ main:640 ] - [ DEBUG ]  Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1a11c4f]
+2017-12-13 20:28:17  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-12-13 20:28:18  [ main:266 ] - [ DEBUG ]  Opening JDBC Connection
+2017-12-13 20:28:18  [ main:578 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@b95c08]
+2017-12-13 20:28:18  [ main:593 ] - [ DEBUG ]  ==>  Preparing: SELECT userid,username,userage FROM user WHERE userid=? 
+2017-12-13 20:28:18  [ main:625 ] - [ DEBUG ]  ==> Parameters: 15(Integer)
+2017-12-13 20:28:18  [ main:640 ] - [ DEBUG ]  <==      Total: 1
+2017-12-13 20:28:18  [ main:640 ] - [ DEBUG ]  Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@b95c08]
+2017-12-13 20:28:18  [ main:640 ] - [ DEBUG ]  Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@b95c08]
+2017-12-13 20:31:12  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-12-13 20:31:13  [ main:234 ] - [ DEBUG ]  Opening JDBC Connection
+2017-12-13 20:31:13  [ main:546 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1492721]
+2017-12-13 20:31:13  [ main:546 ] - [ DEBUG ]  ==>  Preparing: SELECT userid,username,userage FROM user WHERE userid=? 
+2017-12-13 20:31:13  [ main:577 ] - [ DEBUG ]  ==> Parameters: 15(Integer)
+2017-12-13 20:31:13  [ main:593 ] - [ DEBUG ]  <==      Total: 1
+2017-12-13 20:31:13  [ main:593 ] - [ DEBUG ]  Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1492721]
+2017-12-13 20:31:13  [ main:593 ] - [ DEBUG ]  Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1492721]
+2017-12-13 20:35:38  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-12-13 20:35:38  [ main:234 ] - [ DEBUG ]  Opening JDBC Connection
+2017-12-13 20:35:38  [ main:514 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@135852a]
+2017-12-13 20:35:38  [ main:530 ] - [ DEBUG ]  ==>  Preparing: SELECT userid,username,userage FROM user 
+2017-12-13 20:35:38  [ main:561 ] - [ DEBUG ]  ==> Parameters: 
+2017-12-13 20:35:38  [ main:577 ] - [ DEBUG ]  <==      Total: 10
